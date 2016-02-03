@@ -1,0 +1,21 @@
+
+<ul class="messages">
+  <li class="filters">
+    <select ng-model="filters.severity"
+         ng-options="message.severity as message.severity for message in messages | unique:'severity'">
+    </select>
+    <select ng-model="filters.typeDescription"
+         ng-options="message.typeDescription as message.typeDescription for message in messages | unique:'typeDescription'">
+    </select>
+  </li>
+
+  <li ng-repeat="message in messages | filter:filters">
+    <span class="title">{{message.typeDescription}}</span>
+    <span class="count">
+      <svg height="15" width="15">
+        <circle cx="5" cy="7" r="5" fill="{{message.severityColor}}" />
+      </svg>
+      {{message.aggregatedCount}}
+    </span>
+  </li>
+</ul>

@@ -1,0 +1,964 @@
+{
+  "messages": [
+    {
+      "id": 18278,
+      "message": "Test aggregation",
+      "timestamp": 1454494867951,
+      "severity": "success",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Test aggregation",
+      "aggregatedCount": 25
+    },
+    {
+      "id": 18278,
+      "message": "Test aggregation",
+      "timestamp": 1454494867951,
+      "severity": "success",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Test aggregation",
+      "aggregatedCount": 25
+    },
+    {
+      "id": 18278,
+      "message": "Test aggregation",
+      "timestamp": 1454494867951,
+      "severity": "success",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 25
+    },
+    {
+      "id": 18278,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 470 similar notifications]",
+      "timestamp": 1454494867951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 471
+    },
+    {
+      "id": 18277,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 939 similar notifications]",
+      "timestamp": 1454494867946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 940
+    },
+    {
+      "id": 18276,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 827 similar notifications]",
+      "timestamp": 1454494867935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 828
+    },
+    {
+      "id": 18275,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 457 similar notifications]",
+      "timestamp": 1454494837954,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 458
+    },
+    {
+      "id": 18274,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: SP4TU0IETDG\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 945 similar notifications]",
+      "timestamp": 1454494837950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 946
+    },
+    {
+      "id": 18273,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 816 similar notifications]",
+      "timestamp": 1454494837935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 817
+    },
+    {
+      "id": 18272,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 861 similar notifications]",
+      "timestamp": 1454494807955,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 862
+    },
+    {
+      "id": 18271,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: TTDD2FYDNU7P6VP4WAWE\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,665 similar notifications]",
+      "timestamp": 1454494807950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1666
+    },
+    {
+      "id": 18270,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,418 similar notifications]",
+      "timestamp": 1454494807935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1419
+    },
+    {
+      "id": 18269,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 399 similar notifications]",
+      "timestamp": 1454494777949,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 400
+    },
+    {
+      "id": 18268,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 683 similar notifications]",
+      "timestamp": 1454494777946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 684
+    },
+    {
+      "id": 18267,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 642 similar notifications]",
+      "timestamp": 1454494777934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 643
+    },
+    {
+      "id": 18266,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 843 similar notifications]",
+      "timestamp": 1454494747951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 844
+    },
+    {
+      "id": 18265,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,535 similar notifications]",
+      "timestamp": 1454494747947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1536
+    },
+    {
+      "id": 18264,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,333 similar notifications]",
+      "timestamp": 1454494747935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1334
+    },
+    {
+      "id": 18263,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 326 similar notifications]",
+      "timestamp": 1454494717955,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 327
+    },
+    {
+      "id": 18262,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: SRVVLG6RAD6SM5V\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 587 similar notifications]",
+      "timestamp": 1454494717951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 588
+    },
+    {
+      "id": 18261,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 498 similar notifications]",
+      "timestamp": 1454494717935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 499
+    },
+    {
+      "id": 18260,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 870 similar notifications]",
+      "timestamp": 1454494687978,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 871
+    },
+    {
+      "id": 18259,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,708 similar notifications]",
+      "timestamp": 1454494687973,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1709
+    },
+    {
+      "id": 18258,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,441 similar notifications]",
+      "timestamp": 1454494687935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1442
+    },
+    {
+      "id": 18257,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 430 similar notifications]",
+      "timestamp": 1454494657949,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 431
+    },
+    {
+      "id": 18256,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 796 similar notifications]",
+      "timestamp": 1454494657946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 797
+    },
+    {
+      "id": 18255,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 628 similar notifications]",
+      "timestamp": 1454494657935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 629
+    },
+    {
+      "id": 18254,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 468 similar notifications]",
+      "timestamp": 1454494627950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 469
+    },
+    {
+      "id": 18253,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 883 similar notifications]",
+      "timestamp": 1454494627946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 884
+    },
+    {
+      "id": 18252,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 794 similar notifications]",
+      "timestamp": 1454494627934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 795
+    },
+    {
+      "id": 18251,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 706 similar notifications]",
+      "timestamp": 1454494597953,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 707
+    },
+    {
+      "id": 18250,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,286 similar notifications]",
+      "timestamp": 1454494597950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1287
+    },
+    {
+      "id": 18249,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 992 similar notifications]",
+      "timestamp": 1454494597935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 993
+    },
+    {
+      "id": 18248,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 680 similar notifications]",
+      "timestamp": 1454494567953,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 681
+    },
+    {
+      "id": 18247,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: UN84ITJOHTI2L\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,403 similar notifications]",
+      "timestamp": 1454494567950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1404
+    },
+    {
+      "id": 18246,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,143 similar notifications]",
+      "timestamp": 1454494567935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1144
+    },
+    {
+      "id": 18245,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 358 similar notifications]",
+      "timestamp": 1454494537956,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 359
+    },
+    {
+      "id": 18244,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 703 similar notifications]",
+      "timestamp": 1454494537949,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 704
+    },
+    {
+      "id": 18243,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 628 similar notifications]",
+      "timestamp": 1454494537935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 629
+    },
+    {
+      "id": 18242,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 713 similar notifications]",
+      "timestamp": 1454494507951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 714
+    },
+    {
+      "id": 18241,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: FB0ZNKP04QS\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,373 similar notifications]",
+      "timestamp": 1454494507947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1374
+    },
+    {
+      "id": 18240,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,162 similar notifications]",
+      "timestamp": 1454494507936,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1163
+    },
+    {
+      "id": 18239,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 714 similar notifications]",
+      "timestamp": 1454494477951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 715
+    },
+    {
+      "id": 18238,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,377 similar notifications]",
+      "timestamp": 1454494477947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1378
+    },
+    {
+      "id": 18237,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,092 similar notifications]",
+      "timestamp": 1454494477935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1093
+    },
+    {
+      "id": 18236,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 449 similar notifications]",
+      "timestamp": 1454494447958,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 450
+    },
+    {
+      "id": 18235,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 26ZRPHOPQELT3LJQW\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 921 similar notifications]",
+      "timestamp": 1454494447950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 922
+    },
+    {
+      "id": 18234,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 704 similar notifications]",
+      "timestamp": 1454494447935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 705
+    },
+    {
+      "id": 18233,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 703 similar notifications]",
+      "timestamp": 1454494417950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 704
+    },
+    {
+      "id": 18232,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,360 similar notifications]",
+      "timestamp": 1454494417947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1361
+    },
+    {
+      "id": 18231,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,180 similar notifications]",
+      "timestamp": 1454494417935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1181
+    },
+    {
+      "id": 18230,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 426 similar notifications]",
+      "timestamp": 1454494387948,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 427
+    },
+    {
+      "id": 18229,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 0ZKTL7HTOE2\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 749 similar notifications]",
+      "timestamp": 1454494387945,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 750
+    },
+    {
+      "id": 18228,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 625 similar notifications]",
+      "timestamp": 1454494387934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 626
+    },
+    {
+      "id": 18227,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 770 similar notifications]",
+      "timestamp": 1454494357949,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 771
+    },
+    {
+      "id": 18226,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: IYONZ1D1933QG\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,485 similar notifications]",
+      "timestamp": 1454494357945,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1486
+    },
+    {
+      "id": 18225,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,279 similar notifications]",
+      "timestamp": 1454494357935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1280
+    },
+    {
+      "id": 18224,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 432 similar notifications]",
+      "timestamp": 1454494327952,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 433
+    },
+    {
+      "id": 18223,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 47E2DDZ7F564QQDRIX\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 835 similar notifications]",
+      "timestamp": 1454494327947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 836
+    },
+    {
+      "id": 18222,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 756 similar notifications]",
+      "timestamp": 1454494327935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 757
+    },
+    {
+      "id": 18221,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 887 similar notifications]",
+      "timestamp": 1454494297951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 888
+    },
+    {
+      "id": 18220,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: MJQ7TUW1FEK5I\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,635 similar notifications]",
+      "timestamp": 1454494297947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1636
+    },
+    {
+      "id": 18219,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,365 similar notifications]",
+      "timestamp": 1454494297935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1366
+    },
+    {
+      "id": 18218,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 353 similar notifications]",
+      "timestamp": 1454494267951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 354
+    },
+    {
+      "id": 18217,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: LCU58AQ35B0\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 686 similar notifications]",
+      "timestamp": 1454494267947,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 687
+    },
+    {
+      "id": 18216,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 561 similar notifications]",
+      "timestamp": 1454494267934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 562
+    },
+    {
+      "id": 18215,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 724 similar notifications]",
+      "timestamp": 1454494237953,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 725
+    },
+    {
+      "id": 18214,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: IUY0XD00L0KPPNM3U\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,341 similar notifications]",
+      "timestamp": 1454494237946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1342
+    },
+    {
+      "id": 18213,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,136 similar notifications]",
+      "timestamp": 1454494237935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1137
+    },
+    {
+      "id": 18212,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 417 similar notifications]",
+      "timestamp": 1454494207948,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 418
+    },
+    {
+      "id": 18211,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 4ATTFKI602DEG1O50\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 846 similar notifications]",
+      "timestamp": 1454494207945,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 847
+    },
+    {
+      "id": 18210,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 734 similar notifications]",
+      "timestamp": 1454494207935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 735
+    },
+    {
+      "id": 18209,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 978 similar notifications]",
+      "timestamp": 1454494177962,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 979
+    },
+    {
+      "id": 18208,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 1,870 similar notifications]",
+      "timestamp": 1454494177954,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1871
+    },
+    {
+      "id": 18207,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,583 similar notifications]",
+      "timestamp": 1454494177936,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1584
+    },
+    {
+      "id": 18206,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 392 similar notifications]",
+      "timestamp": 1454494147966,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 393
+    },
+    {
+      "id": 18205,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 759 similar notifications]",
+      "timestamp": 1454494147952,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 760
+    },
+    {
+      "id": 18204,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 672 similar notifications]",
+      "timestamp": 1454494147940,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 673
+    },
+    {
+      "id": 18203,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 346 similar notifications]",
+      "timestamp": 1454494117951,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 347
+    },
+    {
+      "id": 18202,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 632 similar notifications]",
+      "timestamp": 1454494117946,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 633
+    },
+    {
+      "id": 18201,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 555 similar notifications]",
+      "timestamp": 1454494117934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 556
+    },
+    {
+      "id": 18200,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 867 similar notifications]",
+      "timestamp": 1454494087958,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 868
+    },
+    {
+      "id": 18199,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: F4W4Q46GYBNVW7W6YT\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,691 similar notifications]",
+      "timestamp": 1454494087950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1692
+    },
+    {
+      "id": 18198,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,356 similar notifications]",
+      "timestamp": 1454494087935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1357
+    },
+    {
+      "id": 18197,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 494 similar notifications]",
+      "timestamp": 1454494057954,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 495
+    },
+    {
+      "id": 18196,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 1TTTYTVAUENFUF\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 950 similar notifications]",
+      "timestamp": 1454494057950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 951
+    },
+    {
+      "id": 18195,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 779 similar notifications]",
+      "timestamp": 1454494057935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 780
+    },
+    {
+      "id": 18194,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 395 similar notifications]",
+      "timestamp": 1454494027953,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 396
+    },
+    {
+      "id": 18193,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type A\nField: type\nValue: Type A\nDestination Type: BOOLEAN\nTable: exercise\nColumn: boolean\n\n[Skipping 723 similar notifications]",
+      "timestamp": 1454494027950,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 724
+    },
+    {
+      "id": 18192,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 538 similar notifications]",
+      "timestamp": 1454494027934,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 539
+    },
+    {
+      "id": 18191,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 884 similar notifications]",
+      "timestamp": 1454493997962,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 885
+    },
+    {
+      "id": 18190,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: 7CR4UCBHGF2VZ0OZAH\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 1,792 similar notifications]",
+      "timestamp": 1454493997948,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 1793
+    },
+    {
+      "id": 18189,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 1,526 similar notifications]",
+      "timestamp": 1454493997935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 1527
+    },
+    {
+      "id": 18188,
+      "message": "Event of type 'Type B' was sent to the Restream queue due to a missing mapping for the following fields:\n\n - test.inner\n - $test\n - _metadata.event_type\n - _metadata.@uuid\n - _metadata.host\n - _metadata.calling_line\n - /test\n - timestamp_epoch\n - _metadata.report_time\n - _metadata.@version\n - 'test'\n - _metadata.input_label\n - int3\n - #test\n - _metadata.calling_file\n - timestamp\n - subdict.int2\n - _metadata.port\n - subdict.arr\n - _metadata.@timestamp\n - @test\n - _metadata.@parent_uuid\n - subdict.string1\n - \"test\"\n - user\n\n[Skipping 414 similar notifications]",
+      "timestamp": 1454493967949,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_STRICT_MAP_ERROR",
+      "typeDescription": "Partially Mapped Event",
+      "aggregatedCount": 415
+    },
+    {
+      "id": 18187,
+      "message": "The event was sent to the Restream queue due to a failed type conversion\nEvent type: Type C\nField: string1\nValue: IULMHD5N93GXPT9IHE\nDestination Type: VARCHAR\nTable: exercise\nColumn: string1\n\n[Skipping 784 similar notifications]",
+      "timestamp": 1454493967945,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_CONVERSION_ERROR",
+      "typeDescription": "Field Type Conversion Failed",
+      "aggregatedCount": 785
+    },
+    {
+      "id": 18186,
+      "message": "Transform function failure. Stack trace:\nTraceback (most recent call last):\n  File \"transform_func\", line 1, in <module>\n  File \"<string>\", line 7, in transform\nException: Something went wrong with the event\n\n\n[Skipping 626 similar notifications]",
+      "timestamp": 1454493967935,
+      "severity": "error",
+      "state": "new",
+      "type": "STORM_PYTHON_CODE_FAILED",
+      "typeDescription": "Transform Function Error",
+      "aggregatedCount": 627
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+/* app css stylesheet */
+
+.messages{
+  list-style-type: none;
+  background-color: #EEE;
+  width: 400px;
+  margin: 15px;
+  padding: 35px;
+}
+.messages .title{
+    font-weight: bold;
+}
+.messages .count{
+    float: right;
+}
+.messages .filters{
+    margin-bottom: 10px;
+}
