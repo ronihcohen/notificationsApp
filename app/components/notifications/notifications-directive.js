@@ -14,6 +14,10 @@ angular.module('myApp.notifications')
         console.log (messages);
       })
       scope.filters = {};
+      scope.sortBy = function (string) {
+        scope.sortType = string;
+        scope.sortReverse = !scope.sortReverse;
+      };
     }
   };
 }]);

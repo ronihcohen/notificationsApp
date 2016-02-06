@@ -9,8 +9,13 @@
 }
 .messages .title{
     font-weight: bold;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
-.messages .count{
+.pull-right{
     float: right;
 }
 .messages .filters{

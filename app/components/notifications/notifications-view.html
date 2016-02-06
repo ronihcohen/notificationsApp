@@ -1,17 +1,32 @@
 
 <ul class="messages">
   <li class="filters">
-    <select ng-model="filters.severity"
-         ng-options="message.severity as message.severity for message in messages | unique:'severity'">
+    <select ng-model="filters['severity']" >
+        <option value="">All severities</option>
+        <option ng-repeat="message in messages  | unique:'severity'" value="{{message.severity}}">{{message.severity}}</option>
     </select>
-    <select ng-model="filters.typeDescription"
-         ng-options="message.typeDescription as message.typeDescription for message in messages | unique:'typeDescription'">
+    <select class="pull-right" ng-model="filters['typeDescription']" >
+        <option value="">All types</option>
+        <option ng-repeat="message in messages  | unique:'typeDescription'" value="{{message.typeDescription}}">{{message.typeDescription}}</option>
     </select>
+
+  </li>
+  <li>
+    <span class="title" ng-click="sortBy('typeDescription')">
+      Type
+      <img ng-show="sortType == 'typeDescription' && !sortReverse" src="assets/up.png"/>
+      <img ng-show="sortType == 'typeDescription' && sortReverse" src="assets/down.png"/>
+    </span>
+    <span class="title pull-right" ng-click="sortBy('aggregatedCount')">
+      <img ng-show="sortType == 'aggregatedCount' && !sortReverse" src="assets/up.png"/>
+      <img ng-show="sortType == 'aggregatedCount' && sortReverse" src="assets/down.png"/>
+      Count
+    </span>
   </li>
 
-  <li ng-repeat="message in messages | filter:filters">
-    <span class="title">{{message.typeDescription}}</span>
-    <span class="count">
+  <li ng-repeat="message in messages | filter:filters  | orderBy:sortType:sortReverse">
+    <span>{{message.typeDescription}}</span>
+    <span class="pull-right">
       <svg height="15" width="15">
         <circle cx="5" cy="7" r="5" fill="{{message.severityColor}}" />
       </svg>
